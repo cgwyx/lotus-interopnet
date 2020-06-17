@@ -21,6 +21,9 @@ EXPOSE 1347/tcp
 # API port
 EXPOSE 2345/tcp
 
+# API port
+EXPOSE 3456/tcp
+
 ENV IPFS_GATEWAY=https://proof-parameters.s3.cn-south-1.jdcloud-oss.com/ipfs/
 
 WORKDIR /lotus
